@@ -158,6 +158,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 10px;
 }
 .smart-text{
     color: #fff;
@@ -290,6 +291,140 @@ header{
     background-color: wheat;
 }
 
+/* 5th section/ contract section  */
+#Contract-section{
+    background-image:  url('images/contact.jpg');
+    padding: 100px 0;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+form{
+    background-color: #1aaa3955;
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 50px 60px;
+    border-radius: 5px;
+    border: 5px solid #4493D3;
+}
+#Contract-section h2{
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 0.1em;
+}
+#Contract-section p{
+    color: #fff;
+    text-align: center;
+    margin: 30px 0;
+}
+.form-input{
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin: 30px 0;
+    border: none;
+    background: none;
+    outline: none;
+    color: #fff;
+    border-bottom: 3px solid #4493D3;
+    font-size: 18px;
+}
+.form-input::placeholder{
+    color: #830f0f;
+    font-weight: bold;
+}
+.submit-button{
+    display: block;
+    margin: 0 auto;
+    padding: 5px 40px;
+    font-size: 20px;
+    background: none;
+    color: #fff;
+    outline-style: ridge;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+.submit-button:hover{
+    background-color: #4493D3;
+}
+
+
+/* 6th section code  */
+
+.six-section{
+    background-color: #07254F;
+    color: #FFF;
+    padding: 100px 0;
+}
+.match-parents{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 200px;
+    margin-right: 200px;
+    grid-gap: 45px;
+}
+.single-match{
+    border: 2px solid #26528F;
+    padding: 20px;
+}
+.single-match i{
+    font-size: 40px;
+    padding: 0 20px 10px 20px;
+}
+.single-match h4{
+    margin-bottom: 10px;
+}
+.single-match:nth-child(2){
+    border: 2px solid white;
+}
+.first-class{
+    line-height: 1.5;
+    letter-spacing: 0.1rem;
+}
+/* footer part start  */
+footer{
+    background-color: #154360;
+    padding: 100px 0 50px 0;
+}
+#footer-parent{
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    color: white;
+    gap: 80px;
+}
+.single-footer{
+    width: 100%;
+}
+.single-footer h5{
+    margin-bottom: 25px;
+    letter-spacing: 3px;
+}
+.single-footer-2 p{
+    margin: 15px;
+}
+.single-footer-2 a{
+    text-decoration: none;
+    color: white;
+}
+.single-footer-3 ul{
+    display: flex;
+}
+.single-footer-3 ul li{
+    list-style-type: none;
+}
+.single-footer-3 ul li a{
+    text-decoration: none;
+    color: white;
+    margin: 0 5px;
+    background-color: #0a273863;
+    padding: 8px;
+}
+.single-footer h5 span{
+    color: yellow;
+}
 
 
 
@@ -339,6 +474,44 @@ header{
     .single-advice h3{
         margin-top: 50px;
     }
+    /* 4th section / advice section code finshed  */
+    /* contract section start  */
+
+
+    form{
+        background-color: #1aaa3955;
+        max-width: 95%;
+        padding: 20px 30px;
+    }
+    /* contract section finshed  */
+    /* 6th section code start  */
+    .match-parents{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 30px;
+        margin-right: 30px;
+        grid-gap: 25px;
+    }
+    .first-class{
+        text-align: center;
+    }
+    /* finshed code  */
+         /* Start Footer Section */
+
+         #footer-parent{
+            display: flex;
+            flex-direction: column;
+            margin-left: 30px;
+            margin-right: 30px;
+       }
+       .single-footer{
+            text-align: center;
+       }
+       .single-footer-3 ul{
+            display: flex;
+            justify-content: center;
+       }
+
 }
 
 @media only screen and (min-width: 689px) and (max-width: 1099px) {
@@ -382,4 +555,28 @@ header{
     .advice-icon a{
         margin: 10px 5px;
     }
+    /* finshes advice section  */
+        /* contract section start  */
+
+
+        form{
+            background-color: #1aaa3955;
+            max-width: 90%;
+            padding: 40px 50px;
+        }
+        /* contract section finshed  */
+    /* 6th section code start  */
+    .match-parents{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 70px;
+        margin-right: 70px;
+        grid-gap: 35px;
+    }
+         /* Start Footer Section code */
+
+         #footer-parent{
+            margin-left: 70px;
+            margin-right: 70px;
+       }
 }
