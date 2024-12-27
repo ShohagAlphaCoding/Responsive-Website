@@ -205,6 +205,7 @@ header{
 }
 .about-iteam-text ul{
     margin: 20px 0;
+    list-style-position: inside;
 }
 .about-iteam-text a{
     text-decoration: none;
